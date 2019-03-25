@@ -14,7 +14,7 @@
 	<title>書豪練習作：手機頁面滑動</title>
 	<link rel="shortcut icon" href="img/favicon.ico">
 
-	<!--把螢幕解析度的寬度變成載具的寬度(RWD用)-->
+	<!--把螢幕解析度的寬度變成載具的寬度-->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!--網站描述與關鍵字設定-->
@@ -30,13 +30,7 @@
 
 	<!--IE相容性設定-->
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-
-	<!--載入google font的Fjalla One字體-->
-	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
-
-	<!--載入Font Awesome的Icons-->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
+	
 	<!--載入CSS-->
 	<link rel="stylesheet" href="css/CSSReset.css">
 	<link rel="stylesheet" href="css/all.css">
@@ -50,13 +44,60 @@
 </head>
 
 <body>
-	<!--建立網頁容器-->
-	<div class="wrap">
+	<!--建立手機模型-->
+	<div class="phone">
+		<div class="cameraArea">
+			<div class="camera"></div>
+		</div>
+
+		<div class="screen">
+			<ul class="pages">
+				<li class="titlePage">
+					<h2 class="title_En">Orange</h2>
+					<h2 class="title_Zh-Tw">橘</h2>
+					<div class="orange"></div>
+					<div class="footer"></div>
+				</li>
+				<li class="contentPage">
+					<div class="titleBlock">
+						<h2 class="title">Page2</h2>
+					</div>
+					<div class="contentBlock">
+						<p class="text">橘子（學名：Citrus reticulata）是芸香科柑桔屬的一種水果。「橘」（ㄐㄩˊ）和「桔」（ㄐㄧㄝˊ）都是現代漢語規範字，然「桔」作橘子一義時，為「橘」的俗寫[1]。在廣東的一些方言中二字同音，「桔」也曾做過「橘」的二簡字。閩南語稱橘為柑仔。西南官話區的各方言中呼為「柑子」或「柑兒」。</p>
+					</div>
+					<div class="footer"></div>
+				</li>
+				<li class="contentPage">
+					<div class="titleBlock">
+						<h2 class="title">Page3</h2>
+					</div>
+					<div class="contentBlock">
+						<p class="text">柑和橘都屬於芸香科柑橘屬的寬皮柑橘類，果實外皮肥厚，內藏瓤瓣，由汁泡和種子構成。李時珍在《本草綱目·果部》中記載：「橘實小，其瓣味微醋（即酸），其皮薄而紅，味辛而苦；柑大於橘，其瓣味酢，其皮稍厚而黃，葉辛而甘。」一般說來，柑的果形正圓，黃赤色，皮緊紋細不易剝，多汁甘香；橘的果形扁圓，紅或黃色，皮薄而光滑易剝，味微甘酸。柑和橘雖有區別，但在日常語言中常混用，如廣柑也說廣橘，蜜橘也說蜜柑。</p>
+					</div>
+					<div class="footer"></div>
+				</li>
+			</ul>
+		</div>
 		
-
-
-
+		<div class="buttonArea">
+			<div class="homeButton">
+				<div class="buttonIcon"></div>
+			</div>
+		</div>
 	</div>
+
+	<!--標題-->
+	<h3 class="phoneTitle">The "Best" phone we've ever made!</h3>
+	<h2 class="phoneName">MyPhone1</h2>
+	<ul class="menuButtons">
+		<li><button class="phone1">MyPhone1</button></li>
+		<li><button class="phone2">MyPhone2</button></li>
+		<li><button class="phone3">MyPhone3</button></li>
+		<li><button class="phone4">MyPhone4</button></li>
+		<li><button class="wiggle">wiggle</button></li>
+		<li><button class="turnAround">turn around</button></li>
+	</ul>
+
 </body>
 	
 </html>
